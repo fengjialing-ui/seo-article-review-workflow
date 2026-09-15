@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "workflow_id": "article-review",
+  "version": "3.8.0",
+  "bootstrap_files": [
+    "START_HERE.md",
+    "EXECUTION.md",
+    "AGENTS.md",
+    "ARTICLE_REVIEW_SOP.md",
+    "PRODUCT_RECOMMENDATION_STANDARD.md",
+    "KEYWORD_OPTIMIZATION_STANDARD.md",
+    "standards/CONTENT_PRESERVATION_STANDARD.md",
+    "standards/VISUAL_ASSET_STANDARD.md",
+    "standards/DELIVERY_ACCEPTANCE_STANDARD.md"
+  ],
+  "stages": [
+    {
+      "id": "scope",
+      "checks": [
+        "inputs-and-preservation-scope"
+      ]
+    },
+    {
+      "id": "source",
+      "checks": [
+        "source-asset-audit"
+      ]
+    },
+    {
+      "id": "research",
+      "checks": [
+        "serp-and-intent",
+        "product-route"
+      ]
+    },
+    {
+      "id": "plan",
+      "checks": [
+        "structure-keywords-and-visuals"
+      ]
+    },
+    {
+      "id": "content",
+      "checks": [
+        "preservation-and-editorial"
+      ]
+    },
+    {
+      "id": "assets",
+      "checks": [
+        "actual-visuals"
+      ]
+    },
+    {
+      "id": "document",
+      "checks": [
+        "clean-marked-and-render"
+      ]
+    },
+    {
+      "id": "qa",
+      "checks": [
+        "release-evidence-and-editorial"
+      ]
+    }
+  ],
+  "contract_fields": [
+    "human_approval_required",
+    "visual_scope",
+    "required_visual_sections",
+    "visuals_not_required"
+  ]
+}

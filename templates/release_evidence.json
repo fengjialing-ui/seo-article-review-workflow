@@ -1,0 +1,149 @@
+{
+  "release_id": "",
+  "workflow_bootstrap": {
+    "state_path": "workflow-state.json",
+    "status": "pending"
+  },
+  "source_retention_pct": 0,
+  "source_audit_complete": false,
+  "source_assets_total": 0,
+  "source_assets_dispositioned": 0,
+  "protected_assets_total": 0,
+  "protected_assets_preserved_or_equivalent": 0,
+  "serp_research_date": "YYYY-MM-DD",
+  "structure_plan_complete": false,
+  "reference_outline_copied": false,
+  "content_economy": {
+    "source_word_count": 0,
+    "final_word_count": 0,
+    "expansion_justification": "",
+    "duplicate_decision_rows": [
+      {
+        "decision": "",
+        "primary_owner": "",
+        "duplicate_disposition": "",
+        "reader_value_after_edit": ""
+      }
+    ]
+  },
+  "heading_rows": [
+    {
+      "heading": "",
+      "level": "H1",
+      "role": "primary_keyword",
+      "keyword_or_semantic_cluster": "",
+      "naturalness": "PENDING",
+      "action_parent_rationale": ""
+    }
+  ],
+  "source_records": [
+    {
+      "claim_scope": "",
+      "official_url": "",
+      "verified_date": "YYYY-MM-DD",
+      "final_location": ""
+    }
+  ],
+  "keyword_rows": [
+    {
+      "keyword": "",
+      "intent": "",
+      "optimization_role": "",
+      "exact_location": "",
+      "reader_value": "",
+      "highlighted_text": "",
+      "context_text": "",
+      "exception": null
+    }
+  ],
+  "product_rows": [
+    {
+      "name": "",
+      "core_conversion_product": false,
+      "primary_task_support": "direct_supported / adjacent_authorized_route / no_truthful_route",
+      "role": "",
+      "direct_solution_heading": "Required only when primary_task_support is direct_supported; omit otherwise.",
+      "direct_workflow_steps": [
+        "Required only when primary_task_support is direct_supported; omit otherwise."
+      ],
+      "best_for_scenarios": [
+        "",
+        "",
+        ""
+      ],
+      "not_best_for": [
+        ""
+      ],
+      "differentiated_value": "",
+      "exact_location": "",
+      "official_evidence_url": "",
+      "availability_status": "AVAILABLE / COMING_SOON / BETA / DEMO_ONLY / UNAVAILABLE / REGION_LIMITED",
+      "availability_verified_date": "YYYY-MM-DD",
+      "availability_action": "",
+      "cta": "",
+      "constraint": "",
+      "ultra_tips": {
+        "heading": "",
+        "boundary_disclosure": "",
+        "supported_authorized_route": "",
+        "not_for": "",
+        "workflow_steps": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "current_status_statement": "",
+        "cta_text": "",
+        "touchpoints": [
+          {
+            "role": "decision_context",
+            "exact_location": ""
+          },
+          {
+            "role": "ultra_tips_owner",
+            "exact_location": ""
+          },
+          {
+            "role": "reassurance",
+            "exact_location": ""
+          }
+        ],
+        "visual_asset_filename": ""
+      }
+    }
+  ],
+  "visual_uses": [
+    {
+      "required_section": "",
+      "asset_filename": "",
+      "reader_persona_decision": "",
+      "visual_job": "",
+      "concrete_scene": "",
+      "style_rationale": "",
+      "rights_status": "",
+      "alt_text": "",
+      "caption": "",
+      "exact_insertion_point": "",
+      "rendered_qa": "PENDING"
+    }
+  ],
+  "eeat_sources_checked": [
+    ""
+  ],
+  "release_directory_pure": false,
+  "editorial_qa": {
+    "reviewer_name": "",
+    "review_date": "YYYY-MM-DD",
+    "content_integrity": "BLOCKED",
+    "keyword_editorial_quality": "BLOCKED",
+    "product_suitability": "BLOCKED",
+    "visual_relevance": "BLOCKED",
+    "visual_aesthetics": "BLOCKED",
+    "sources_checked": "BLOCKED",
+    "document_hygiene": "BLOCKED",
+    "release_purity": "BLOCKED",
+    "rendered_pages_reviewed": false,
+    "reviewer_type": ""
+  }
+}
